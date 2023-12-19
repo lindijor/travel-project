@@ -1,0 +1,52 @@
+body {
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/lofoten.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1512px;
+  height: 900px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 144px;
+  margin: 0;
+}
+
+header p {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+}
+
+header button {
+  color: black;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  border: none;
+  margin-top: 32px;
+}
