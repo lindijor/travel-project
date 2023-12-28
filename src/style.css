@@ -106,7 +106,7 @@ header button {
   margin: 0;
 }
 
-.places .small-heading {
+.small-heading {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -166,4 +166,27 @@ header button {
   display: block;
   margin: 40px auto 40px auto;
   width: 306px;
+}
+
+.gallery {
+  margin-top: 100px;
+}
+
+.gallery h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin: 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+
+.gallery-grid img {
+  width: 500px;
 }
