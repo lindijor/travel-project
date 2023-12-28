@@ -235,7 +235,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -248,4 +248,17 @@ footer a:hover {
   header {
     height: 600px;
   }
+
+  .lofoten-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .lofoten-grid img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .lofoten-grid h2 {
+  font-size: 30px;
 }
