@@ -2,18 +2,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(/images/lofoten.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1512px;
   height: 900px;
   color: white;
   text-align: center;
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -51,12 +54,6 @@ header button {
   border: none;
   margin-top: 32px;
   letter-spacing: 3px;
-}
-
-.main-container {
-  width: 1512px;
-  display: block;
-  margin: 0 auto;
 }
 
 .lofoten-grid {
@@ -196,29 +193,22 @@ header button {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
     url(/images/lofoten.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
   height: 334px;
   margin-top: 80px;
 }
 
-.footer-section-left {
-  padding: 100px 0px 0px 200px;
-  color: white;
-}
-
-.footer-section-middle {
-  padding: 100px 0px 0px 0px;
-  color: white;
-}
-
-.footer-section-right {
-  padding: 100px 200px 0px 0px;
+.footer-section {
+  padding: 100px;
   color: white;
 }
 
@@ -243,4 +233,19 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  header h2 {
+    font-size: 30px;
+  }
+
+  header {
+    height: 600px;
+  }
 }
