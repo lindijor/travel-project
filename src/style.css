@@ -268,8 +268,18 @@ footer a:hover {
   }
 
   .places-grid,
-  .grid-header {
+  .grid-header,
+  .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .places-grid .grid-column {
+    margin: 20px auto;
   }
 
   .grid-column img {
@@ -278,5 +288,17 @@ footer a:hover {
 
   .embed {
     width: 100%;
+  }
+
+  .footer-section {
+    margin: 50px 30px;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  footer h3 {
+    font-size: 18px;
   }
 }
