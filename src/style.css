@@ -190,3 +190,53 @@ header button {
 .gallery-grid img {
   width: 500px;
 }
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/lofoten.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 334px;
+  margin-top: 80px;
+}
+
+.footer-section-left {
+  padding: 100px 0px 0px 200px;
+  color: white;
+}
+
+.footer-section-middle {
+  padding: 100px 0px 0px 0px;
+  color: white;
+}
+
+.footer-section-right {
+  padding: 100px 200px 0px 0px;
+  color: white;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+footer p {
+  opacity: 70%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 70%;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
